@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Book Store</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .mag1{
+        width: 400px;
+        position: relative;
+        left: 250px;
+      }
+      .mag2{
+        width: 400px;
+        position: relative;
+        left: 700px;
+        bottom: 150px;
+      }
+      .mag3{
+        position: relative;
+        bottom: 80px;
+      }
+    </style>
+</head>
+<body>
+
+<!--function declarition start-->
+<script>
+    function buy(){
+        var con=confirm("Buy now")
+        if(con==true){
+            document.write("please sign in or log in")
+        }
+        else{
+            document.write("search your books")
+        }
+    }
+</script>
+<!--function declaration end-->
+
+
+
+    <!--logo and name start-->
+    <div class="stay">
+    <div class="logoname">
+    <img src="./logo.jpg" alt="logo" height="50px" width="50px">
+    <h1>Good Thing Book Store</h1>
+    </div>
+    <!--logo and name end-->
+   
+    <!--nav bar start-->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="./premium.html"><b>Premium   </b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active  text-light" aria-current="page" href="./magazines.html"><b>Magazines </b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-light" href="./login.html"><b>Login  </b></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <b> Language</b> 
+                    </a>
+                    
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./english.html">English</a></li>
+                      <li><a class="dropdown-item" href="./tamil.html">Tamil</a></li>
+                      <li><a class="dropdown-item" href="./hindi.html">Hindi</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./more.html">More</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-light" href="./about.html"><b>About us</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-light" href="./contactus.html"><b>Contact us</b></a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+  </div>
+    <!--nav bar end-->
+
+    <!--carosel start-->
+    <div>
+        <center>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./carosel1.jpg" class="d-block w-100" alt="..." height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Read</h5>
+                      <p>Preparation power fuels confidence and ensures readiness for any endeavor.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./carosel2.jpg" class="d-block w-100" alt="..."  height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Work</h5>
+                      <p>"Effort Today, Triumph Tomorrow: Work Towards Success."</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./carosel3.jpg" class="d-block w-100" alt="..."  height="600px">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Achieve</h5>
+                      <p>"Unlock Achievement Through Knowledge: Empower Yourself with Books."</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </center>
+    </div>
+    <!--carousel end-->
+
+    <!-- book section start-->
+    <!--kids section form 5 to 10 start-->
+    <div class="kids">
+        <center>
+        <h1>Kids</h1>
+        <h2>Age 5 to 10</h2>
+        </center>
+        <div class="ageset1">
+        <div class="bk1">
+            <img src="./bk1.jpg" alt="book1" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.340/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk2">
+            <img src="./bk2.jpg" alt="book2" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.240/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button  onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk3">
+            <img src="./bk3.jpg" alt="book3" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.310/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button  onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk4">
+            <img src="./bk4.jpg" alt="book4" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.120/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button  onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk5">
+            <img src="./bk5.jpg" alt="book5" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.160/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button   onclick="alert('Added')"type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        </div>
+        <!--kids section form 5 to 10 end-->
+
+        <!-- kids section from 11 to 18 start-->
+         
+    <div class="adults">
+        <center>
+        <h2>Age 11 to 18</h2>
+    </center>
+        <div class="ageset2">
+        <div class="bk6">
+            <img src="./bk6.jpg" alt="book6" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.340/-</span></h5>
+            <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk7">
+            <img src="./bk7.jpg" alt="book7" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.240/-</span></h5>
+            <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk8">
+            <img src="./bk8.jpg" alt="book8" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.310/-</span></h5>
+            <button  onclick="buy()"type="button" class="btn btn-primary">Buy now</button>
+            <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk9">
+            <img src="./bk9.jpg" alt="book9" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.120/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button  onclick="alert('Added')"type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        <div class="bk10">
+            <img src="./bk10.jpg" alt="book10" height="200px" width="200px">
+            <h5>Price <span class="badge bg-secondary">Rs.160/-</span></h5>
+            <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+            <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+        </div>
+        </div>
+        <!-- kids section from 11 to 18 end-->
+
+        <!--horror start-->
+        <div class="horror1">
+            <center>
+            <h1>Horror</h1>
+        </center>
+            <div class="horror">
+            <div class="bk11">
+                <img src="./bk11.jpg" alt="book11" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.340/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk12">
+                <img src="./bk12.jpg" alt="book2" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.240/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk13">
+                <img src="./bk13.jpg" alt="book13" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.310/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk14">
+                <img src="./bk14.jpg" alt="book14" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.120/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk15">
+                <img src="./bk15.jpg" alt="book15" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.160/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            </div>
+        <!--horror end-->
+
+        <!--autobiography start-->
+        <div class="autobiography1">
+            <center>
+            <h1>Autobiography</h1>
+        </center>
+        <div class="autobiography">
+            <div class="bk16">
+                <img src="./bk16.jpg" alt="book16" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.340/-</span></h5>
+                <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk17">
+                <img src="./bk17.jpg" alt="book17" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.240/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk18">
+                <img src="./bk18.jpg" alt="book18" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.310/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk19">
+                <img src="./bk19.jpg" alt="book19" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.120/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk20">
+                <img src="./bk20.jpg" alt="book20" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.160/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+        </div>
+        <!--autobiography ends-->
+
+        <!--cook book start-->
+        <div class="cookbook1">
+            <center>
+            <h1>Cook Book</h1>
+        </center>
+            <div class="cookbook">
+            <div class="bk21">
+                <img src="./bk21.jpg" alt="book21" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.340/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk22">
+                <img src="./bk22.jpg" alt="book22" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.240/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk23">
+                <img src="./bk23.jpg" alt="book23" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.310/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk24">
+                <img src="./bk24.jpg" alt="book24" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.120/-</span></h5>
+                <button   onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk25">
+                <img src="./bk25.jpg" alt="book25" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.160/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            </div>
+        </div>
+        <!--cook book end-->
+
+        <!--science friction start-->
+        <div class="sciencefriction1">
+            <center>
+            <h1>Science Friction</h1>
+        </center>
+        <div class="sciencefriction">
+            <div class="bk26">
+                <img src="./bk26.jpg" alt="book16" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.340/-</span></h5>
+                <button  onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk27">
+                <img src="./bk27.jpg" alt="book17" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.240/-</span></h5>
+                <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk28">
+                <img src="./bk28.jpg" alt="book18" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.310/-</span></h5>
+                <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk29">
+                <img src="./bk29.jpg" alt="book19" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.120/-</span></h5>
+                <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+            <div class="bk30">
+                <img src="./bk30.jpg" alt="book30" height="200px" width="200px">
+                <h5>Price <span class="badge bg-secondary">Rs.160/-</span></h5>
+                <button onclick="buy()" type="button" class="btn btn-primary">Buy now</button>
+                <button onclick="alert('Added')" type="button" class="btn btn-info">Add to cart</button>
+            </div>
+        </div>
+        <!--sceince friction ends-->
+
+
+    </div>
+
+
+    <!--footer start-->
+    <!-- This is an example component -->
+<div class=" bg-gray-900">
+    <div class="max-w-2xl mx-auto text-white py-10">
+        <div class="text-center">
+            <h3 class="text-3xl mb-3"> Download our app </h3>
+            <p> Read it. All day, every day. </p>
+            <div class="flex justify-center my-10">
+              <div class="mag1">
+                <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8" height="50px">
+                    <div class="text-left ml-3">
+                        <p class='text-xs text-gray-200'>Download on </p>
+                        <p class="text-sm md:text-base"> Google Play Store </p>
+                    </div>
+                </div>
+              </div>
+                <div class="mag2">
+                <div class="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" class="w-7 md:w-8" height="50px">
+                    <div class="text-left ml-3">
+                        <p class='text-xs text-gray-200'>Download on </p>
+                        <p class="text-sm md:text-base"> Apple Store </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <center>
+        <div class="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400 mag3" >
+            <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Beautiful Footer, 2021. </p>
+            <div class="order-1 md:order-2">
+                <span class="px-2">About us</span>
+                <span class="px-2 border-l">Contact us</span>
+                <span class="px-2 border-l">Privacy Policy</span>
+            </div>
+        </div>
+      </center>
+    </div>
+  </div>
+
+
+</body>
+</html>

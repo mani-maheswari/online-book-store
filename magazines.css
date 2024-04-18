@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+.first{
+    display: flex;
+    margin: 5px;
+}
+.first img{
+    height: 390px;
+    padding: 20px;
+}
+.card1{
+    padding: 15px;
+    margin: 10px;
+}
+.card2{
+    padding: 15px;
+    margin: 10px;
+}
+.card3{
+    padding: 15px;
+    margin: 10px;
+}
+.card4{
+    padding: 15px;
+    margin: 10px;
+}
+

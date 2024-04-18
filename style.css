@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.stay{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+body{
+    background-color: yellow;
+}
+.logoname img{
+    border-radius: 50%;
+    padding: 7px;
+}
+.logoname{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+}
+.logoname h1{
+    padding: 2px;
+    margin-left: 4px;
+    margin-left: 25px;
+    color: rgb(26, 26, 219);
+}
+body{
+    background-color:white;
+}
+.foot{
+    background-color:  rgb(216, 201, 216);
+    color: brown;
+}
+.ageset1{
+    display: flex;
+    justify-content: center;
+}
+.bk1{
+    border: 2px solid rgb(201, 15, 201 );
+    padding: 10px;
+    margin: 10px;
+}
+.bk2{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk3{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk4{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk5{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.ageset2{
+    display: flex;
+    justify-content: center;
+}
+.bk6{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk7{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk8{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk9{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk10{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.horror{
+    display: flex;
+    justify-content: center;
+}
+.bk11{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk12{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk13{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk14{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk15{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.autobiography{
+    display: flex;
+    justify-content: center;
+}
+.bk16{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk17{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk18{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk19{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk20{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.cookbook{
+    display: flex;
+    justify-content: center;
+}
+.bk21{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk22{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk23{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk24{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk25{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.sciencefriction{
+    display: flex;
+    justify-content: center;
+}
+.bk26{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk27{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk28{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk29{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+.bk30{
+    border: 2px solid rgb(201, 15, 201);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+.first{
+    display: flex;
+    margin: 5px;
+}
+.first img{
+    height: 390px;
+    padding: 20px;
+}
+.card1{
+    padding: 15px;
+    margin: 10px;
+}
+.card2{
+    padding: 15px;
+    margin: 10px;
+}
+.card3{
+    padding: 15px;
+    margin: 10px;
+}
+.card4{
+    padding: 15px;
+    margin: 10px;
+}
+.second{
+    display: flex;
+    margin: 5px;
+}
+.second img{
+    height: 390px;
+    padding: 20px;
+}
+.card5{
+    padding: 15px;
+    margin: 10px;
+}
+.card6{
+    padding: 15px;
+    margin: 10px;
+}
+.card7{
+    padding: 15px;
+    margin: 10px;
+}
+.card8{
+    padding: 15px;
+    margin: 10px;
+}
+.third{
+    display: flex;
+    margin: 5px;
+}
+.third img{
+    height: 390px;
+    padding: 20px;
+}
+.card9{
+    padding: 15px;
+    margin: 10px;
+}
+.card10{
+    padding: 15px;
+    margin: 10px;
+}
+.card11{
+    padding: 15px;
+    margin: 10px;
+}
+.card12{
+    padding: 15px;
+    margin: 10px;
+}
+.fourth{
+    display: flex;
+    margin: 5px;
+}
+.fourth img{
+    height: 390px;
+    padding: 20px;
+}    
+.card13{
+    padding: 15px;
+    margin: 10px;
+    }
+.card14{
+    padding: 15px;
+    margin: 10px;
+}
+.card15{
+    padding: 15px;
+    margin: 10px;
+}
+.card16{
+    padding: 15px;
+    margin: 10px;
+}
+.fifth{
+    display: flex;
+    margin: 5px;
+}
+.fifth img{
+    height: 390px;
+    padding: 20px;
+}
+.card17{
+    padding: 15px;
+    margin: 10px;
+}
+.card18{
+    padding: 15px;
+    margin: 10px;
+}
+.card19{
+    padding: 15px;
+    margin: 10px;
+}
+.card20{
+    padding: 15px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
